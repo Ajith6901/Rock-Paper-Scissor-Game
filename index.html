@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Rock-Paper-Scissor Game</title>
+    <link href="./index.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <div class = "container">
+        
+        <div class="container1"> 
+            <img id="paper"   src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/hand-with-fingers-splayed_1f590-fe0f.png" alt="">
+            <img id="scissor" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/victory-hand_270c-fe0f.png" alt="">
+            <img id="stone"   src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/raised-fist_270a.png" alt=""/>
+        </div>
+        
+        <div class="container2">
+            <p >Score : <span id="score"> 0 </span></p>
+            
+            <p id="hVsC">Lets Play Rock Paper Scissor 😃</p>
+            <p id="youWL">Start with clicking  your choice from above</p>
+
+        </div>
+        
+        <div class="container3">
+            <img id="clear"src="data:image/jpeg;base64,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"/>
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
